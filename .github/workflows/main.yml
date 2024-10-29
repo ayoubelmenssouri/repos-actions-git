@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message
-        run: 
-          echo "Bonjour"
+        run: |
+          echo "Bonjour" ,
           echo "Comment ça va?"
           
   second-job:
