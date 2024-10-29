@@ -1,0 +1,17 @@
+name: "mon premier workflow"
+on: 
+  push: 
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: 
+          echo "Bonjour"
+          echo "Comment ça va?"
+          
+  second-job:
+    runs-on: macos-latest
+    steps:
+      - name: Afficher un message
+        run: echo "Bien, merci."
